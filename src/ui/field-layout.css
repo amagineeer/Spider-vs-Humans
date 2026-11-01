@@ -1,0 +1,6 @@
+/* A dedicated header keeps wave markers off the playable canvas. */
+.wave-header{display:flex;justify-content:flex-end;align-items:center;min-height:86px;padding:26px 24px 10px;background:linear-gradient(100deg,#302a2c,#443537);border:1px solid #776555;border-bottom:0;border-radius:12px 12px 0 0}
+.wave-header #waveProgress{position:static;width:320px;max-width:100%;flex:0 1 320px;font-size:16px;text-align:center}
+.wave-header .wave-track{margin:0 12px 8px;height:20px}
+.wave-header+.hud{border-radius:0}
+@media(max-width:700px){.wave-header{min-height:80px;padding-inline:16px;justify-content:center}}

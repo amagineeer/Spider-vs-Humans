@@ -1,0 +1,18 @@
+@font-face {
+  font-family: GoldBubble;
+  src: url('../../assets/fonts/GoldBubble-Color.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+}
+@font-face {
+  font-family: 'GoldBubble Mono';
+  src: url('../../assets/fonts/GoldBubble-Mono.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+}
+:root, body, body *, body *::before, body *::after {
+  font-family: GoldBubble, 'GoldBubble Mono' !important;
+  font-synthesis: none;
+}
